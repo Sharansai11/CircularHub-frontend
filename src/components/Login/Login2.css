@@ -1,0 +1,96 @@
+/* Login2.css */
+.login-outer-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    background-image: url('/hone1.jpg'); /* Reference the image in the public folder */
+    background-size: cover; /* Ensures the image covers the entire container */
+    background-position: center; /* Centers the background image */
+    background-repeat: no-repeat; /* Prevents the background image from repeating */
+    opacity: 1;
+}
+
+
+.login-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+    background: rgba(255, 255, 255, 0.2);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(0.5px);
+    -webkit-backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 10px;
+    width: 90%;
+    max-width: 400px;
+}
+
+.login-heading {
+    font-size: 2rem;
+    color: #fff;
+    margin-bottom: 20px;
+    font-family: 'Arial', sans-serif;
+}
+
+.login-form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.login-radio-container {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.login-radio, .login-radio {
+    display: flex;
+  
+    color: #fffcfc;
+  
+}
+
+.login-radio-label {
+    margin-right: 10px;
+    font-weight: 600;
+    font-family: 'Arial', sans-serif;
+}
+
+.login-input {
+    margin-bottom: 20px;
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 5px;
+    background: rgba(145, 200, 239, 0.2);
+    color: #ffffff;
+    outline: none;
+    transition: all 0.3s ease;
+}
+
+.login-input::placeholder {
+    color: #ffffff;
+}
+
+.login-input:focus {
+    background: rgba(255, 255, 255, 0.3);
+}
+
+.loginn-button {
+    padding: 10px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+    background: rgba(106, 234, 239, 0.2);
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.login-button:hover {
+    background: rgba(245, 180, 95, 0.3);
+}

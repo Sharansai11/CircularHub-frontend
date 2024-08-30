@@ -1,0 +1,36 @@
+.Cardcontainer {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 20px;
+    cursor: pointer;
+    transition: transform 0.2s ease;
+}
+
+.Cardcontainer:hover {
+    transform: scale(1.05);
+}
+
+.box {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    width: 100%;
+}
+
+.content {
+    padding: 20px;
+    text-align: left;
+}
+
+.content h1 {
+    margin: 0 0 10px 0;
+    font-size: 24px;
+}
+
+.content p {
+    margin: 0 0 10px 0;
+    font-size: 16px;
+    line-height: 1.5;
+}

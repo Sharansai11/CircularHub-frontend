@@ -1,0 +1,67 @@
+/* Header.css */
+.header-container {
+    display: flex;
+    align-items: center;
+    max-width:100vw;
+    padding: 10px;
+    background-color: rgb(255, 255, 255);
+   
+}
+
+.header-content {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    
+}
+
+.header-logo {
+    width: 50px;
+    height: auto;
+}
+
+.header-title {
+    font-size: 1.5rem;
+  font-weight: 600;
+  color: rgb(130 0 26);
+  font-family: 'Arial', sans-serif;
+}
+
+.header-list {
+    display: flex;
+   
+    align-items: center;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+}
+
+
+.header-user {
+    color:rgb(130 0 26);
+    font-size: 1.6rem;
+    text-transform: capitalize;
+    font-family: 'Fantasy';
+    margin-left: 59vw;
+    font-weight: 800;
+   
+    
+}
+
+.header-userType {
+    color: rgb(130 0 26);
+    font-size: 1.2rem;
+}
+
+.header-logoutButton {
+    border: 1px solid rgba(248, 115, 115, 0.3);
+    border-radius: 5px;
+    margin-left: 1vw;
+    padding: 10px 20px;
+    background-color: #f4775b;
+    color: #ffffff;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
