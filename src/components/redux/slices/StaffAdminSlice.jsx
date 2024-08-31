@@ -9,7 +9,7 @@ export const StaffAdminLoginThunk = createAsyncThunk(
     try {
       if (userCredObj.userType === "staff") {
         const res = await axios.post(
-          "http://localhost:/staff-api/login",
+          "https://circularhub-backend.onrender.com/staff-api/login",
           userCredObj
         );
         if (res.data.message === "login success") {
