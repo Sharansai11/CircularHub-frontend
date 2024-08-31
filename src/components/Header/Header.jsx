@@ -30,7 +30,7 @@ const Header = () => {
                             <img className='header-logo' src={vnr_log} alt="VNR Logo" />
                             <h2 className='header-title'>VNR VJIET - Circular Repository</h2>
                             <p>
-                                You can log in using demo credentials for both admin and staff accounts, with "demo" as the username and password.</p>
+                                Log in using the demo credentials (username: demo, password: demo), and wait up to 30 seconds for the Render server to restart.</p>
                         </div>
                     </>
                 ) : (
